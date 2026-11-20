@@ -27,7 +27,7 @@ Evaluated on the same held-out test set (`cardiffnlp/tweet_eval` offensive split
 2. Install the required Python libraries:
    `pip install -r requirements.txt`
 3. Obtain the trained model weights (choose one option):
-   - **Option A (Recommended – Fast):** Download `saved_models.zip` from Google Drive (https://drive.google.com/file/d/1pOT3sjAoK8ZdWtca6XdLpGmkiYHYXpK/view?usp=sharing) and extract it into the project root directory so that `saved_models/` is located next to `app.py`.
+   - **Option A (Recommended – Fast):** Download `saved_models.zip` from Google Drive https://drive.google.com/file/d/1pOT3sjAoK8ZdWwtca6XdLpGmkiYHYXpK/view?usp=sharing and extract it into the project root directory so that `saved_models/` is located next to `app.py`.
    - **Option B (Train from scratch):** Run `python train.py` to download the dataset, train all four models, run the 100-iteration CPU benchmark, and save the weights into `saved_models/`.
 4. Launch the interactive Streamlit application:
    `streamlit run app.py`
